@@ -208,6 +208,10 @@ body {
     font-size: 16px;
 }
 
+.skills {
+    margin-bottom: 50px;
+}
+
 .skills .box {
     position: relative;
     width: 100%;
@@ -237,4 +241,23 @@ body {
     left: 0;
     height: 100%;
     background: #03a9f4;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container .left_side {
+        padding: 40px 20px;
+    }
+
+    .container .right_side {
+        padding: 40px 20px;
+    }
+
+    .interests ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
